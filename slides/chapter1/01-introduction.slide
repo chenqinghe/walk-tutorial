@@ -7,6 +7,26 @@ chenqh721@foxmail.com
 https://github.com/chenqinghe
 
 
+
+## Go能干什么
+- 服务端应用
+- 基础设施：云平台、分布式系统
+- 中间件：etcd、nsq、boltdb
+- 区块链：Ethereum、Fabric
+- 等等
+
+## 课程介绍
+- walk介绍
+- 介绍walk组件使用
+    - PushButton
+    - MsgBox
+    - ListBox
+    - TabPage
+    - TreeView
+    - TextEdit
+    - etc ...
+- 实战：写一个redis桌面命令行工具
+
 ## walk介绍
 项目地址：https://github.com/lxn/walk
 
@@ -14,12 +34,11 @@ https://github.com/chenqinghe
 	
 	Walk is a "Windows Application Library Kit" for the Go Programming Language.
 	Its primarily useful for Desktop GUI development, but there is some more stuff.
-	
+
 walk是个windows平台的GUI开发库，有以下特性：
 - 仅支持windows平台
+- 纯Go编写，无其他任何依赖
 - 拥有丰富的widget
-- 无任何其他依赖
-
 
 ## walk安装
 
@@ -37,16 +56,9 @@ walk要求go的版本在1.11+
 
 `go get github.com/akavel/rsrc`
 
-
 ## hello world
 
 首先看一个入门程序：
 
 .code ../../helloworld/main.go /START OMIT/,/END OMIT/
-
-
-
-
-
-
 
