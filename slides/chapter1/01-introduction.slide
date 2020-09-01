@@ -1,0 +1,52 @@
+# Golang开发GUI程序
+walk介绍
+29 oct 2020
+
+清和
+chenqh721@foxmail.com
+https://github.com/chenqinghe
+
+
+## walk介绍
+项目地址：https://github.com/lxn/walk
+
+官方介绍:
+	
+	Walk is a "Windows Application Library Kit" for the Go Programming Language.
+	Its primarily useful for Desktop GUI development, but there is some more stuff.
+	
+walk是个windows平台的GUI开发库，有以下特性：
+- 仅支持windows平台
+- 拥有丰富的widget
+- 无任何其他依赖
+
+
+## walk安装
+
+- step 1. 安装go
+
+参考 [Getting Started - The Go Programming Language](https://golang.org/doc/install)
+
+walk要求go的版本在1.11+
+
+- step 2. 安装walk
+
+`go get github.com/lxn/walk`
+
+- step 3. 其他需要用到的工具
+
+`go get github.com/akavel/rsrc`
+
+
+## hello world
+
+首先看一个入门程序：
+
+.code ../../helloworld/main.go /START OMIT/,/END OMIT/
+
+
+
+
+
+
+
