@@ -1,0 +1,48 @@
+# Golang开发GUI程序
+walk组件介绍
+02 sep 2020
+
+清和
+chenqh721@foxmail.com
+https://github.com/chenqinghe
+
+
+## 入口MainWindow
+- Title
+- Icon
+- Size
+- Layout
+- Children
+- AssignTo
+
+## 布局
+- VBox
+- HBox
+- Grid
+- Flow
+
+## 按钮
+- PushButton
+- RadioButton
+- CheckBox
+- ComboBox
+
+## 弹窗/对话框
+- MsgBox
+- Dialog
+
+## 编辑框
+- LineEdit
+- NumberEdit
+- TextEdit
+
+## 视图
+- ImageView
+- ScrollView
+- TableView
+- TreeView
+- WebView
+
+## 样式
+- Brush
+- Font
